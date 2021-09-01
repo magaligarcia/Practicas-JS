@@ -1,0 +1,56 @@
+body {
+    font-family: Calibri;
+    padding: 10px 20px;
+    text-align: center;
+    background-image: url(img/fondo_02.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #1d1c1c;
+    background-color: #B4C2D4;
+    padding: 20px;
+    border-radius: 0 20px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(233, 240, 235);
+    text-align: center;
+    margin-top: 5%;
+}
+
+h3 {
+    color: #FFFFFF;
+    background-color: #4a6283;
+    padding: 4px;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #3f3e3e;
+    text-align: center;
+}
+
+#contenedor {
+    display: inline-block;
+    text-align: center;
+    border-style: dotted;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 130px;
+    padding-top: 100px;
+    margin-top: 10%;
+    border-color: #B4C2D4;
+    border-radius: 20PX;
+    border-width: 2px;
+    box-shadow: 0 0 100px 10px #e0eaf8;
+    background-image: url("https://media1.giphy.com/media/3og0IV7MOCfnm85iRa/giphy.gif?cid=790b76114727fc9b1737571278a898ebe419aa0131671fd7&amp;rid=giphy.gif&amp;ct=g");
+    /*rgb(91, 116, 141, 0.7);*/
+}
