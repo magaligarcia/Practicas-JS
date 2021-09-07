@@ -22,21 +22,21 @@ do {
     while (isNaN(tipoTransporte) || tipoTransporte == "" || tipoTransporte > 2 || tipoTransporte < 1) {
         alert("****** ERROR! ****** \nUsted ha ingresado una opción NO valida\nPor favor, reintentelo.");
 
-        tipoTransporte = prompt("Elija el tipo de transporte:\n\nOPCIÓN 1: Autobús \nOPCIÓN 2: Avión ");
+        tipoTransporte = parseInt(prompt("Elija el tipo de transporte:\n\nOPCIÓN 1: Autobús \nOPCIÓN 2: Avión "));
     }
 
     ciudadOrigen = parseInt(prompt("CIUDAD DE ORIGEN (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén"));
 
     while (isNaN(ciudadOrigen) || ciudadOrigen == "" || ciudadOrigen > 9 || ciudadOrigen < 1) {
         alert("****** ERROR! ****** \nUsted ha ingresado una opción NO valida\nPor favor, reintentelo.");
-        ciudadOrigen = prompt("CIUDAD DE ORIGEN (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén");
+        ciudadOrigen = parseInt(prompt("CIUDAD DE ORIGEN (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén"));
     }
 
     ciudadDestino = parseInt(prompt("CIUDAD DE DESTINO (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén"));
 
     while (isNaN(ciudadDestino) || ciudadDestino == "" || ciudadDestino > 9 || ciudadDestino < 1 || ciudadDestino == ciudadOrigen) {
         alert("****** ERROR! ****** \nUsted ha ingresado una opción NO valida o su ciudad de DESTINO es IGUAL a la ciudad de ORIGEN. \n\nPor favor, reingrese el destino:");
-        ciudadDestino = prompt("CIUDAD DE DESTINO (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén");
+        ciudadDestino = parseInt(prompt("CIUDAD DE DESTINO (Ingrese una opción): \n\nOPCIÓN 1: Buenos Aires \nOPCIÓN 2: Córdoba \nOPCIÓN 3: Rosario \nOPCIÓN 4: Mar del Plata \nOPCIÓN 5: San Miguel de Tucumán \nOPCIÓN 6: Salta \nOPCIÓN 7: Posadas \nOPCIÓN 8: Mendoza \nOPCIÓN 9: Neuquén"));
     }
 
     cantidadReservas++;
