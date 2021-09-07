@@ -1,0 +1,18 @@
+body {
+    background-color: #121F3D;
+    color: azure;
+    text-align: center;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: oldlace;
+    text-align: center;
+}
+
+#bienvenida {
+    display: block;
+    border: solid;
+    border-color: lightsteelblue;
+}
